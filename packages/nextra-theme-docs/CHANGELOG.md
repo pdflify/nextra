@@ -1,5 +1,19 @@
 # nextra-theme-docs
 
+## 2.0.0-beta.18
+
+### Patch Changes
+
+- 7a32f8e: remove unneeded wrappers `<div />`s in `<Navbar />`
+- bea62a1: make the search input responsive in narrow screens
+- a0c0eb8: allow override `MDXProvider.components`
+- 16bedce: `"layout": "raw"` should render `all` unstyled elements, except `<a />`
+- 8564919: extract `<Input/>` from `<Search/>` and `<Flexsearch/>`
+- 7bcbc98: add new `meta.json#theme.timestamp` option to hide `Last updated on ...`
+- d16b2ba: move contexts to `./contexts` directory
+- 47938b1: remove unneeded `useRef` for `<details />`
+- f99bbc2: Add `nextra-body-typesetting-article` back
+
 ## 2.0.0-beta.17
 
 ### Patch Changes
